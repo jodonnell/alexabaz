@@ -6,8 +6,17 @@
     = javascript_include_tag "application"
     = csrf_meta_tags
   %body
-    = link_to 'Home', root_path
-    = link_to 'Education', education_path
-    = link_to 'Approach', approach_path
-    = link_to 'Contact', contact_path
-    = yield
+    #left_bar
+      = link_to image_tag('ivy_leaf.jpg', :size => '40x40'), root_path
+      = link_to 'Home', root_path
+      %br
+      = link_to image_tag('ivy_leaf.jpg', :size => '40x40'), education_path
+      = link_to 'Education', education_path
+      %br
+      = link_to image_tag('ivy_leaf.jpg', :size => '40x40'), approach_path
+      = link_to 'Approach', approach_path
+      %br
+      = link_to image_tag('ivy_leaf.jpg', :size => '40x40'), contact_path
+      = link_to 'Contact', contact_path
+    #content  
+      = yield

@@ -3,8 +3,14 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-    background-color: #FFFFE0;
+    background-color: #1e3348;
+    margin-right: 200px;
+    color: #FFF;
+}
+
+#content {
     text-align: center;
+    padding-top: 30px;
 }
 
 #title {
@@ -19,4 +25,20 @@ body {
 
 .education_header {
     font-size: 30px;
+}
+
+#left_bar {
+    float: left;
+    width: 300px;
+    height: 1000px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+a:link {
+    color: #FF0000;
+} 
+
+a:visited {
+    color:#00FF00;
 }
