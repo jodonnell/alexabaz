@@ -11,9 +11,9 @@ $grey: #747474;
 
 @mixin default-font {
     font-family: 'Lato', sans-serif;
-    font-weight: 300px;
     font-size: 20px;
     font-style: italic;
+    line-height: 120%;
 }
 
 #content {
@@ -28,7 +28,7 @@ $grey: #747474;
     font-weight: bold;
 }
 
-.education_header {
+.header {
     font-size: 30px;
 }
 
@@ -62,4 +62,8 @@ a:link {
 
 .intro_text {
     margin-left: 470px;
+}
+
+#education li {
+    margin-bottom: 10px;
 }
