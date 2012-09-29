@@ -18,17 +18,16 @@
       })();
   %body
     #content
-      #inner
-        #title
-          Alexa Baz, LCSW
-        %hr
-        .left_nav_link
-          = link_to 'Contact', contact_path
-        .left_nav_link
-          = link_to 'Approach', approach_path
-        .left_nav_link
-          = link_to 'Education', education_path
-        .left_nav_link
-          = link_to 'Home', root_path
-        #inner_content
-          = yield
+      #title
+        Alexa Baz, LCSW
+      %hr
+      .nav_link
+        = link_to 'Contact', contact_path
+      .nav_link
+        = link_to 'Approach', approach_path
+      .nav_link
+        = link_to 'Education', education_path
+      .nav_link
+        = link_to 'Home', root_path
+      #inner_content
+        = yield

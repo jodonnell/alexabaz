@@ -1,24 +1,25 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$grey: #747474;
 
-
-#inner {
+@mixin jello-layout {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
-#content {
-    margin-top: 200px;
-    padding-top: 30px;
-    font-size: 18px;
+@mixin default-font {
     font-family: 'Lato', sans-serif;
     font-weight: 300px;
     font-size: 20px;
     font-style: italic;
+}
 
+#content {
+    margin-top: 230px;
+    @include jello-layout;
+    @include default-font;
 }
 
 #title {
@@ -31,19 +32,7 @@
     font-size: 30px;
 }
 
-#left_bar {
-    float: left;
-    width: 200px;
-    height: 600px;
-    padding-left: 50px;
-    padding-top: 150px;
-}
-
-.leaf {
-    vertical-align: middle;
-}
-
-.left_nav_link {
+.nav_link {
     margin-bottom: 20px;
     font-size: 20px;
     float: right;
@@ -60,11 +49,11 @@ a {
 }
 
 a:visited {
-    color: #747474;
+    color: $grey;
 }
 
 a:link {
-    color: #747474;
+    color: $grey;
 }
 
 .tree_image {
@@ -72,6 +61,5 @@ a:link {
 }
 
 .intro_text {
-    margin-left: 430px;
-    padding-left: 40px;
+    margin-left: 470px;
 }
