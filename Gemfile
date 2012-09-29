@@ -9,6 +9,7 @@ gem 'pg'
 gem 'thin'
 gem 'heroku'
 gem 'haml'
+gem 'dalli'
 
 # Gems used only for assets and not required
 # in production environments by default.
