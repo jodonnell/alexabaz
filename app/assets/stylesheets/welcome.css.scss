@@ -55,12 +55,16 @@
 }
 
 a {
-    font-family: 'Oswald', sans-serif;
+    font-family: sans-serif;
     text-decoration: none;
 }
 
 a:visited {
-    color: #838383;
+    color: #747474;
+}
+
+a:link {
+    color: #747474;
 }
 
 .tree_image {
