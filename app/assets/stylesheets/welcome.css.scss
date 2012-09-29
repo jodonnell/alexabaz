@@ -29,7 +29,8 @@ $grey: #747474;
 }
 
 .header {
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .nav_link {
@@ -64,6 +65,17 @@ a:link {
     margin-left: 470px;
 }
 
-#education li {
-    margin-bottom: 10px;
+#education {
+    margin-bottom: 47px;
+
+    li {
+	margin-bottom: 10px;
+	list-style-type: none;
+	position: relative;
+	left: -20px;
+    }
+}
+
+#experience_text {
+    padding-left: 20px;
 }
