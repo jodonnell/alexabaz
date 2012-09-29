@@ -1,6 +1,6 @@
 AlexaWebsite::Application.routes.draw do
   root :to => 'welcome#index'
-  match 'education' => 'welcome#education', :as => :education
+  match 'background' => 'welcome#background', :as => :background
   match 'approach' => 'welcome#approach', :as => :approach
   match 'contact' => 'welcome#contact', :as => :contact
   # The priority is based upon order of creation:

@@ -1,7 +1,7 @@
 class WelcomeController < ApplicationController
   caches_action :index
   caches_action :approach
-  caches_action :education
+  caches_action :background
   caches_action :contact
 
   def index
@@ -10,7 +10,7 @@ class WelcomeController < ApplicationController
   def approach
   end
 
-  def education
+  def background
   end
 
   def contact
