@@ -101,9 +101,14 @@ a:link {
     color: $grey;
 }
 
-.tree_image {
-    float: left;
+#tree_image {
+    float: right;
     vertical-align: top;
+}
+
+.presenting_problem_group {
+    margin-right: 90px;
+    margin-left: 100px;
 }
 
 #presenting_problem_list {
@@ -181,4 +186,13 @@ p#second_p {
     float: left;
     margin-right: 20px;
     border-radius: 9px;
+}
+
+.float_right {
+    float: right;
+}
+
+.center {
+    margin-top: 60px;
+    margin-left: 250px;
 }
