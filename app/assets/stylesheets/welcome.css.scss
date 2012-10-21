@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $grey: #747474;
+$title_bar_height: 130px;
+$title_box_height: 60px;
+
+body {
+    margin: 0px;
+    background-color: #efefef;
+}
 
 @mixin jello-layout {
     width: 1000px;
@@ -11,21 +18,49 @@ $grey: #747474;
 
 @mixin default-font {
     font-family: 'Marcellus', sans-serif;
-
     font-size: 19px;
     line-height: 120%;
 }
 
 #content {
-    margin-top: 130px;
     @include jello-layout;
     @include default-font;
 }
 
+#black_bar {
+    height: $title_bar_height;
+    background-color: #2A2A2A;
+}
+
+#title_container {
+    @include jello-layout;
+}
+
+#title_float {
+    float: right;
+}
+
 #title {
+    position: relative;
+    top: $title_bar_height - $title_box_height;
     font-size: 40px;
-    text-align: right;
     font-weight: bold;
+    background-color: grey;
+    height: $title_box_height;
+    width: 350px;
+    border-radius: 7px 7px 0px 0px;
+    text-align: center;
+}
+
+#title_text {
+    position: relative;
+    top: 15px;
+}
+
+#title_area { 
+    height: 50px;
+    background-color: black;
+    
 }
 
 .header {
@@ -40,8 +75,14 @@ $grey: #747474;
     margin-left: 20px;
 }
 
+#white_area {
+    background-color: white;
+
+}
+
 #inner_content {
     clear:right;
+    background-color: #efefef;
 }
 
 a {
@@ -112,4 +153,13 @@ p#second_p {
 
 #phone, #email {
     margin-bottom: 30px;
+}
+
+#topbar {
+    position: absolute;
+    left: 0px;
+    z-index: -1px;
+    width: 1500px;
+    height: 100px;
+    background-color: blue;
 }
