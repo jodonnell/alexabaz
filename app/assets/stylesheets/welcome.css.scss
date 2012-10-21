@@ -2,12 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $grey: #747474;
-$title_bar_height: 130px;
+$title_bar_height: 140px;
 $title_box_height: 60px;
+$background_color: #cfcfcf;
 
 body {
     margin: 0px;
-    background-color: #efefef;
+    background-color: $background_color;
 }
 
 @mixin jello-layout {
@@ -29,7 +30,7 @@ body {
 
 #black_bar {
     height: $title_bar_height;
-    background-color: #2A2A2A;
+    background-color: #526A90;
 }
 
 #title_container {
@@ -45,7 +46,7 @@ body {
     top: $title_bar_height - $title_box_height;
     font-size: 40px;
     font-weight: bold;
-    background-color: grey;
+    background-color: #7A8394;
     height: $title_box_height;
     width: 350px;
     border-radius: 7px 7px 0px 0px;
@@ -54,7 +55,7 @@ body {
 
 #title_text {
     position: relative;
-    top: 15px;
+    top: 10px;
 }
 
 #title_area { 
@@ -75,14 +76,13 @@ body {
     margin-left: 20px;
 }
 
-#white_area {
-    background-color: white;
-
+#nav_area {
+    margin-top: 10px;
 }
 
 #inner_content {
     clear:right;
-    background-color: #efefef;
+    background-color: $background_color;
 }
 
 a {
@@ -100,11 +100,18 @@ a:link {
 
 .tree_image {
     float: left;
+    vertical-align: top;
 }
 
-.intro_text {
-    margin-left: 470px;
-    padding-top: 30px;
+#presenting_problem_list {
+    margin-top: 30px;
+    ul {
+	margin-top: 4px;
+    }
+
+    .header {
+	font-size: 20px;
+    }
 }
 
 #education {
@@ -162,4 +169,12 @@ p#second_p {
     width: 1500px;
     height: 100px;
     background-color: blue;
+}
+
+#babypee {
+    background-image: url('alexa2.jpg');
+    width: 175px;
+    height: 140px;
+    float: left;
+    margin-right: 20px;
 }
