@@ -30,40 +30,38 @@ body {
 
 #black_bar {
     height: $title_bar_height;
-    background-color: #526A90;
+
 }
 
 #title_container {
-    @include jello-layout;
+    height: 100px;
+    background-color: #323232;
 }
 
 #title_float {
-    float: right;
+
 }
 
 #title {
     @include default-font;
-    position: relative;
+    margin-right: auto;
+    padding-left: 420px;
     top: $title_bar_height - $title_box_height;
     font-size: 35px;
     font-weight: bold;
-    background-color: #7A8394;
     height: $title_box_height;
     width: 350px;
     border-radius: 7px 7px 0px 0px;
     text-align: center;
+
 }
 
 #title_text {
+    color: #939393;
     position: relative;
-    top: 10px;
+    top: 30px;
 }
 
-#title_area { 
-    height: 50px;
-    background-color: black;
-    
-}
 
 .header {
     font-size: 28px;
@@ -71,21 +69,35 @@ body {
 }
 
 .nav_link {
-    margin-bottom: 25px;
     font-size: 20px;
-    float: right;
     margin-left: 20px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    a:link {
+	color: white;
+    }
+
+    a:visited {
+	color: white;
+    }
+
+}
+
+#nav {
+    background-color: #191919;
 }
 
 #nav_area {
-    margin-top: 10px;
+    margin-left: 1040px;
 }
 
 #inner_content {
     clear:right;
     background-color: #f9f9f9;
     padding: 20px;
-    border-radius: 10px;
+    height: 790px;
 }
 
 a {
@@ -107,8 +119,6 @@ a:link {
 }
 
 .presenting_problem_group {
-    margin-right: 90px;
-    margin-left: 100px;
 }
 
 #presenting_problem_list {
@@ -195,4 +205,8 @@ p#second_p {
 .center {
     margin-top: 60px;
     margin-left: 250px;
+}
+
+.float_left {
+    float: left;
 }

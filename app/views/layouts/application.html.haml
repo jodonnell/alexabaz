@@ -17,22 +17,24 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
   %body
-    #black_bar
-      #title_container
-        #title_float
-          #title
-            #title_text
-              Alexa Baz, LCSW
-
-    #content
+    #nav
       #nav_area
-        .nav_link
+        .nav_link.float_left
           = link_to 'Contact', contact_path
-        .nav_link
+        .nav_link.float_left
           = link_to 'Approach', approach_path
-        .nav_link
+        .nav_link.float_left
           = link_to 'Background', background_path
         .nav_link
+          &nbsp;
           = link_to 'Home', root_path
+
+    #title_container
+      #title_float
+        #title
+          #title_text
+            Alexa Baz, LCSW
+
+    #content
       #inner_content
         = yield

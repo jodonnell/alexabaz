@@ -10,6 +10,15 @@ class WelcomeController < ApplicationController
   def approach
   end
 
+  def children
+  end
+
+  def adolescent
+  end
+
+  def adult
+  end
+
   def background
   end
 
