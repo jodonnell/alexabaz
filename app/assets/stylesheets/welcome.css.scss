@@ -1,10 +1,10 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-$grey: #747474;
+$grey: #231f20;
 $title_bar_height: 140px;
 $title_box_height: 60px;
-$background_color: #eeeeee;
+$background_color: #e4dbd2;
 
 body {
     margin: 0px;
@@ -18,7 +18,7 @@ body {
 }
 
 @mixin default-font {
-    font-family: 'Marcellus', sans-serif;
+    font-family: "Palatino", "Georgia", "Baskerville", serif;
     font-size: 19px;
     line-height: 120%;
 }
@@ -34,8 +34,11 @@ body {
 }
 
 #title_container {
-    height: 100px;
+    height: 240px;
     background-color: #323232;
+    background-image: url('test.jpg');
+    background-repeat:repeat-x;
+
 }
 
 #title_float {
@@ -59,7 +62,8 @@ body {
 #title_text {
     color: #939393;
     position: relative;
-    top: 30px;
+    top: 200px;
+    left: -230px;
 }
 
 
@@ -75,25 +79,39 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 
+    position: relative;
+    top: -45px;
+
     a:link {
-	color: white;
+	color: #EEE;
     }
 
     a:visited {
-	color: white;
+	color: #CCC;
     }
 
 }
 
 #nav {
-    background-color: #191919;
+    padding-bottom: 50px;
+
+background: #231f20; /* Old browsers */
+background: -moz-linear-gradient(top,  #231f20 0%, #e4dbd2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#231f20), color-stop(100%,#e4dbd2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #231f20 0%,#e4dbd2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #231f20 0%,#e4dbd2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #231f20 0%,#e4dbd2 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #231f20 0%,#e4dbd2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#231f20', endColorstr='#e4dbd2',GradientType=0 ); /* IE6-9 */
+
 }
 
 #nav_area {
-    margin-left: 1040px;
+    margin-left: 825px;
 }
 
 #inner_content {
+    margin-top: 30px;
     clear:right;
     background-color: #f9f9f9;
     padding: 20px;
