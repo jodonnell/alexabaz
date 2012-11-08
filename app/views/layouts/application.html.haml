@@ -17,23 +17,42 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
   %body
-    #title_container
-      #title_float
-        #title
-          #title_text
-            Alexa Baz, LCSW
-    #nav
+    #header_image
+      %canvas#stars{:style => 'width: 1440px; height: 200px;'}
+    #nav.float_right
       #nav_area
-        .nav_link.float_left
-          = link_to 'Contact', contact_path
-        .nav_link.float_left
-          = link_to 'Approach', approach_path
-        .nav_link.float_left
-          = link_to 'Background', background_path
-        .nav_link
-          &nbsp;
-          = link_to 'Home', root_path
+        %ul.sf-menu
+          %li
+            .nav_link.float_left
+              = link_to 'Home', root_path
+          %li
+            .nav_link.float_left
+              = link_to 'Background', background_path
+          %li
+            .nav_link.float_left
+              = link_to 'Approach', '#'
+              %ul
+                %ul
+                  %li
+                    = link_to 'Children', children_path
+                  %li
+                    = link_to 'Adolescents', adolescents_path
+                  %li
+                    = link_to 'Adults', adults_path
+          %li
+            .nav_link.float_left{style: 'position: relative; top: -20px;'}
+              &nbsp;
+              = link_to 'Contact', contact_path
+
+    #title
+      #title_text
+        Alexa Baz, LCSW
 
     #content
       #inner_content
         = yield
+      %footer
+        %hr
+          .float_right
+            123-456-7890
+          = mail_to 'bazlcsw@gmail.com'

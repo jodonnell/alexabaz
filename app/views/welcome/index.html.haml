@@ -7,7 +7,6 @@
   #presenting_problem_list  
     .float_left
       .presenting_problem_group
-        = image_tag('green_tree.jpg', :size => '200x217')
         .header
           Children
         %ul
@@ -18,8 +17,7 @@
           %li Social skills
 
     .float_left
-      .presenting_problem_group
-        = image_tag('green_tree.jpg', :size => '200x217')
+      .presenting_problem_group{:style => 'margin-left: 40px; position:relative;top:170px'}
         .header
           Adolescents / Teens
         %ul
@@ -27,10 +25,9 @@
           %li Parent - child conflict
           %li Self-esteem
           %li Peer conflict
-          %li Depressive and Anxiety Disorders
+          %li Mood disorders
 
-    .presenting_problem_group
-      = image_tag('green_tree.jpg', :size => '200x217')
+    .presenting_problem_group{:style => 'margin-left: 600px;'}
       .header
         Adults
       %ul
@@ -38,3 +35,4 @@
         %li Depression
         %li Anxiety
         %li Difficulty adjusting to life changes
+        %li Parenting
