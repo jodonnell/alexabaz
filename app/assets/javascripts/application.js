@@ -17,18 +17,5 @@
 
 
 $(document).ready(function() {
-    var stars_canvas = $('#stars')[0];
-    var context = stars_canvas.getContext("2d");
-
-
-    for (var i = 0; i < 1000; i++) {
-        var x=Math.floor(Math.random()*1440);
-        var y=Math.floor(Math.random()*120);
-        context.fillStyle = '#fff';
-        context.fillStyle = '#aaa';
-
-        context.fillRect(x, y, 1, 1);
-    }
-
     $("ul.sf-menu").superfish(); 
 });

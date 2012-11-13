@@ -50,15 +50,9 @@ body {
 
 #title {
     @include default-font;
-    margin-right: auto;
-    margin-left: 120px;
-
+    margin-left: 10px;
     font-size: 35px;
     font-weight: bold;
-    height: $title_box_height;
-    width: 380px;
-    text-align: center;
-
 }
 
 #title_text {
@@ -77,16 +71,6 @@ body {
 
     padding-top: 10px;
     padding-bottom: 10px;
-
-    
-    a:link {
-	color: #EEE;
-    }
-
-    a:visited {
-	color: $grey;
-    }
-
 }
 
 hr {
@@ -97,24 +81,18 @@ hr {
 }
 
 footer {
-    margin-top :200px;
+    margin-top: 100px;
     height: 150px;
     font-size: 30px;
 }
 
 #nav {
-    width: 700px;
-}
 
-#nav_area {
-    margin-right: 130px;
 }
 
 #inner_content {
-    margin-top: 30px;
     clear:right;
-    padding: 20px;
-
+    padding: 10px;
 }
 
 a {
@@ -301,3 +279,8 @@ p#second_p {
     border-width: 0;
 }
 
+#top_bar {
+    @include jello-layout;
+    height: $title_box_height;
+
+}

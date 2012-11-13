@@ -18,9 +18,8 @@
       })();
   %body
     #header_image
-      %canvas#stars{:style => 'width: 1440px; height: 200px;'}
-    #nav.float_right
-      #nav_area
+    #top_bar    
+      #nav.float_right
         %ul.sf-menu
           %li
             .nav_link.float_left
@@ -44,9 +43,9 @@
               &nbsp;
               = link_to 'Contact', contact_path
 
-    #title
-      #title_text
-        Alexa Baz, LCSW
+      #title
+        #title_text
+          Alexa Baz, LCSW
 
     #content
       #inner_content
@@ -54,5 +53,5 @@
       %footer
         %hr
           .float_right
-            123-456-7890
+            (646) 783-8514
           = mail_to 'bazlcsw@gmail.com'
