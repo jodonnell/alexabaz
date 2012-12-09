@@ -1,11 +1,32 @@
+#stripe2
+  #alexa_image
+  #sub_header
+    Child
+    %br
+    Adolescent
+    %br 
+    Adult
+    Psychotherapist
+    %br
+    %br
+    .sub_sub
+      Brooklyn Heights, NY    
+
+
+#left_bar
+  #brief  
+    .intro_text
+      I am a licensed clinical social worker with specialized training working with children, adolescents and their parents. 
+      %p
+        Bringing your child to therapy is an important and perhaps overwhelming decision and it is my role to help you and your child feel safe, understood and empowered to find solutions that help your family. 
+      %p
+        Through play therapy, traditional psychotherapy and parenting support and coaching I will encourage the expression of feelings and development of coping skills.
+      %p
+        In addition to my work with families I am also adept at helping young adults deal with issues related to identity and intimacy- both dominant issues during this life stage.
+
 .introduction
-  .intro_text
-    #babypee
-    I am a licensed clinical social worker with specialized training working with children, adolescents and their parents. Bringing your child to therapy is an important and perhaps overwhelming decision and it is my role to help you and your child feel safe, understood and empowered to find solutions that help your family. Through play therapy, traditional psychotherapy and parenting support and coaching I will encourage the expression of feelings and development of coping skills.
-    %p
-      In addition to my work with families I am also adept at helping young adults deal with issues related to identity and intimacy- both dominant issues during this life stage.
-  #presenting_problem_list  
-    .float_left
+  #help_with
+    #presenting_problem_list  
       .presenting_problem_group
         .header
           Children
@@ -16,22 +37,25 @@
           %li Emotion regulation and coping
           %li Social skills
 
-    .presenting_problem_group{:style => 'margin-left: 600px;'}
-      .header
-        Adults
-      %ul
-        %li Relationship and intimacy issues
-        %li Depression
-        %li Anxiety
-        %li Difficulty adjusting to life changes
-        %li Parenting
+      .presenting_problem_group
+        .header
+          Adolescents / Teens
+        %ul
+          %li Oppositional behavior
+          %li Parent - child conflict
+          %li Self-esteem
+          %li Peer conflict
+          %li Mood disorders
 
-    .presenting_problem_group{:style => 'margin-left: 340px; margin-top: 40px;'}
-      .header
-        Adolescents / Teens
-      %ul
-        %li Oppositional behavior
-        %li Parent - child conflict
-        %li Self-esteem
-        %li Peer conflict
-        %li Mood disorders
+      .presenting_problem_group
+        .header
+          Adults
+        %ul
+          %li Relationship and intimacy issues
+          %li Depression
+          %li Anxiety
+          %li Difficulty adjusting to life changes
+          %li Parenting
+
+
+  = link_to 'Contact Me', '#', :class =>"contact_button"

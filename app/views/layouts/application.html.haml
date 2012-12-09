@@ -16,42 +16,43 @@
       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-  %body
-    #header_image
-    #top_bar    
-      #nav.float_right
-        %ul.sf-menu
-          %li
-            .nav_link.float_left
-              = link_to 'Home', root_path
-          %li
-            .nav_link.float_left
-              = link_to 'Background', background_path
-          %li
-            .nav_link.float_left
-              = link_to 'Approach', '#'
-              %ul
-                %ul
-                  %li
-                    = link_to 'Children', children_path
-                  %li
-                    = link_to 'Adolescents', adolescents_path
-                  %li
-                    = link_to 'Adults', adults_path
-          %li
-            .nav_link.float_left{style: 'position: relative; top: -20px;'}
-              &nbsp;
-              = link_to 'Contact', contact_path
-
-      #title
-        #title_text
-          Alexa Baz, LCSW
-
+      %body
+    #header
     #content
       #inner_content
+
+        #top_bar    
+          #nav.float_right
+            %ul.sf-menu
+              %li
+                .nav_link.float_left
+                  = link_to 'Home', root_path
+              %li
+                .nav_link.float_left
+                  = link_to 'Background', background_path
+              %li
+                .nav_link.float_left
+                  = link_to 'Approach', '#'
+                  %ul
+                    %ul
+                      %li
+                        = link_to 'Children', children_path
+                      %li
+                        = link_to 'Adolescents', adolescents_path
+                      %li
+                        = link_to 'Adults', adults_path
+              %li
+                .nav_link.float_left{style: 'position: relative; top: -20px;'}
+                  &nbsp;
+                  = link_to 'Contact', contact_path
+
+          #title
+            #title_text
+              Alexa Baz, LCSW
+
         = yield
-      %footer
-        %hr
-          .float_right
-            (646) 783-8514
-          = mail_to 'bazlcsw@gmail.com'
+        %footer
+          %hr
+            .float_right
+              (646) 783-8514
+            = mail_to 'bazlcsw@gmail.com'
