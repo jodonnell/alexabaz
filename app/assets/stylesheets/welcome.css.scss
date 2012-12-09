@@ -54,7 +54,7 @@ body {
 #title {
     @include default-font;
     margin-left: 10px;
-    font-size: 35px;
+    font-size: 42px;
     font-weight: bold;
  }
 
@@ -69,8 +69,8 @@ body {
 }
 
 .nav_link {
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 23px;
+    margin-left: 12px;
 
     padding-top: 10px;
     padding-bottom: 10px;
@@ -110,11 +110,11 @@ a {
 }
 
 a:visited {
-    color: $grey;
+    color: $black;
 }
 
 a:link {
-    color: $grey;
+    color: $black;
 }
 
 #tree_image {
@@ -124,6 +124,7 @@ a:link {
 
 .presenting_problem_group {
     font-size: 16px;
+    margin-top: 30px;
 
 }
 
@@ -200,7 +201,6 @@ p#second_p {
 
 .introduction {
     margin-left: 400px;
-    height: 750px;
 }
 
 #alexa_image {
@@ -245,9 +245,12 @@ p#second_p {
 	font-family:arial;
 	font-size:15px;
 	font-weight:bold;
-	padding:6px 24px;
+	padding:8px 34px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #aade7c;
+
+	margin-top: 67px;
+	margin-left: 30px;
 }
 .contact_button:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
@@ -357,4 +360,8 @@ p#second_p {
     width: 1040px;
     height: 240px;
     
+}
+
+#background {
+    margin-top: 10px;
 }
