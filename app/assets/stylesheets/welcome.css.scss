@@ -4,15 +4,9 @@
 $grey: #9BA3A1;
 $title_bar_height: 140px;
 $title_box_height: 60px;
-$background_color: #dce0df;
 
 $black: #1A1F1E;
-
 $offwhite: #CBDAD5;
-$slate: #89A7B1;
-$greyblue: #566981;
-$deepblue: #3A415A;
-$navy: #34344E;
 
 body {
     margin: 0px;
@@ -96,10 +90,6 @@ footer {
     width: 330px;
 }
 
-#nav {
-
-}
-
 #inner_content {
     padding: 10px;
 }
@@ -115,11 +105,6 @@ a:visited {
 
 a:link {
     color: $black;
-}
-
-#tree_image {
-    float: right;
-    vertical-align: top;
 }
 
 .presenting_problem_group {
@@ -337,29 +322,13 @@ p#second_p {
     margin-top: 100px;
 }
 
-#stripe2 {
+#stripe {
     background-color: rgba(0, 0, 0, 0.2);
     padding-right: 100px;
     position: relative;
     left: -30px;
     width: 940px;
     padding-bottom: 60px;
-}
-
-#stripe {
-    position: absolute;
-    margin-top: 10px;
-    width: 1040px;
-    height: 240px;
-}
-
-#inner {
-    position: relative;
-    left: -30px;
-    background-color: rgba(0, 0, 0, 0.1);
-    width: 1040px;
-    height: 240px;
-    
 }
 
 #background {
