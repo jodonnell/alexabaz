@@ -6,19 +6,26 @@ $title_box_height: 60px;
 
 $black: #1A1F1E;
 $offwhite: #CBDAD5;
+$side_color: #2A3F1E;
 
 body {
     margin: 0px;
-    background-color: $grey;
+    background-color: $side_color;
 }
 
 #header {
-    height: 229px;
-    background-image: url('room_with_windows.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1040px 500px;
-    background-color: $black;
+    height: 329px;
+    background-color: $side_color;
+}
+
+.header_image {
+    width: 1040px;
+    height: 500px;
+    box-shadow: 10px -10px 20px, -10px -10px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 329px;
 }
 
 @mixin jello-layout {
@@ -38,6 +45,8 @@ body {
     @include default-font;
     background-color: $offwhite;
     padding: 20px;
+
+    box-shadow: 10px 2px 20px, -10px 2px 20px;;
 }
 
 #title {
