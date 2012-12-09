@@ -2,7 +2,6 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 $grey: #9BA3A1;
-$title_bar_height: 140px;
 $title_box_height: 60px;
 
 $black: #1A1F1E;
@@ -11,6 +10,15 @@ $offwhite: #CBDAD5;
 body {
     margin: 0px;
     background-color: $grey;
+}
+
+#header {
+    height: 229px;
+    background-image: url('room_with_windows.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1040px 500px;
+    background-color: $black;
 }
 
 @mixin jello-layout {
@@ -30,19 +38,6 @@ body {
     @include default-font;
     background-color: $offwhite;
     padding: 20px;
-}
-
-#black_bar {
-    height: $title_bar_height;
-}
-
-#header {
-    height: 229px;
-    background-image: url('room_with_windows.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 1040px 500px;
-    background-color: $black;
 }
 
 #title {
