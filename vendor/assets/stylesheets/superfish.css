@@ -58,8 +58,6 @@ ul.sf-menu li li li.sfHover ul {
 	margin-bottom:	1em;
 }
 .sf-menu a {
-	border-left:	1px solid #fff;
-	border-top:		1px solid #CFDEFF;
 	padding: 		.75em 1em;
 	text-decoration:none;
 }
@@ -74,11 +72,6 @@ ul.sf-menu li li li.sfHover ul {
 }
 .sf-menu li li li {
 	background:		#9AAEDB;
-}
-.sf-menu li:hover, .sf-menu li.sfHover,
-.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
-	background:		#CFDEFF;
-	outline:		0;
 }
 
 /*** arrows **/
