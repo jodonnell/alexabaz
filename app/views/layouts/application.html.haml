@@ -19,7 +19,7 @@
       %body
     #header
       = image_tag 'room_with_windows_unedited.jpg', :class => 'header_image'
-    #content
+    #content{:itemscope => '', :itemtype=>"http://schema.org/ProfessionalService"}
       #inner_content
 
         #top_bar    
@@ -48,16 +48,25 @@
                   = link_to 'Contact', contact_path
 
           #title
-            #title_text
+            #title_text{:itemprop => "name"}
               Alexa Baz, LCSW
 
         = yield
         %footer
           %hr
             .float_right
-              (646) 783-8514
-            = mail_to 'bazlcsw@gmail.com'
-            %br/
-            26 Court Street, Suite 2703
-            %br/
-            Brooklyn NY, 11201
+              %span{:itemprop => "telephone"}
+                (646) 783-8514
+                %br
+                = mail_to 'bazlcsw@gmail.com'
+            %div{:itemprop => "address", :itemscope => '', :itemtype => "http://schema.org/PostalAddress"}
+              %span{:itemprop => "streetAddress"}
+                26 Court Street, Suite 2703
+              %br/
+              = succeed ',' do
+                %span{:itemprop => "addressLocality"}
+                  Brooklyn
+              %span{:itemprop => "addressRegion"}
+                NY
+              %span{:itemprop => "postalCode"}
+                11201
