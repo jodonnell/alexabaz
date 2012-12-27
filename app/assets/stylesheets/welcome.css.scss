@@ -8,20 +8,22 @@ $black: #1A1F1E;
 $offwhite: #CBDAD5;
 $side_color: #2A3F1E;
 
+$texture: 'wild_oliva.png';
+
 body {
     margin: 0px;
-    background-color: $side_color;
+    background-image: url($texture);
 }
 
 #header {
     height: 329px;
-    background-color: $side_color;
+    background-image: url($texture);
 }
 
 .header_image {
     width: 1040px;
     height: 500px;
-    box-shadow: 10px -10px 20px, -10px -10px 20px;
+    box-shadow: 5px -5px 20px, -5px -5px 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -46,7 +48,7 @@ body {
     background-color: $offwhite;
     padding: 20px;
 
-    box-shadow: 10px 2px 20px, -10px 2px 20px;;
+    box-shadow: 5px -5px 20px, -5px -5px 20px;
 }
 
 #title {
