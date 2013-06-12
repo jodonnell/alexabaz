@@ -1,12 +1,14 @@
 source 'https://rubygems.org'
 
+ruby "2.0.0"
+
 gem 'rails', '3.2.13'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
-gem 'thin'
+gem 'unicorn'
 gem 'heroku'
 gem 'haml'
 gem 'dalli'
