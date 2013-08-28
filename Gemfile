@@ -11,6 +11,7 @@ gem 'pg'
 gem 'unicorn'
 gem 'heroku'
 gem 'haml'
+gem 'memcachier'
 gem 'dalli'
 gem 'newrelic_rpm'
 
