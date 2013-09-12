@@ -5,7 +5,8 @@ $grey: #9BA3A1;
 $title_box_height: 60px;
 
 $black: #1A1F1E;
-$offwhite: #CBDAD5;
+$background-color: #CBDAD5;
+$brief-color: #CBDAD5;
 $side_color: #2A3F1E;
 
 $texture: 'wild_oliva.png';
@@ -45,7 +46,7 @@ body {
 #content {
     @include jello-layout;
     @include default-font;
-    background-color: $offwhite;
+    background-color: $background-color;
     padding: 20px;
 
     box-shadow: 5px -5px 20px, -5px -5px 20px;
@@ -172,21 +173,12 @@ p#second_p {
     margin-bottom: 30px;
 }
 
-#topbar {
-    position: absolute;
-    left: 0px;
-    z-index: -1px;
-    width: 1500px;
-    height: 100px;
-    background-color: blue;
-}
-
 #brief {
     margin-top: 20px;
     padding: 14px;
     border: 1px black solid;
     border-radius: 6px;
-    background-color: #E4EDEA;
+    background-color: $brief-color;
 }
 
 .introduction {
@@ -296,7 +288,7 @@ p#second_p {
 }
 
 .sf-menu li {
-    background:	$offwhite;
+    background:	$background-color;
 }
 
 // keeps the dropdown in place
@@ -319,7 +311,7 @@ p#second_p {
 #top_bar {
     @include jello-layout;
     height: $title_box_height;
-    background-color: $offwhite;
+    background-color: $background-color;
 
 }
 
