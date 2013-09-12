@@ -17,17 +17,14 @@ body {
 }
 
 #header {
-    height: 329px;
-    background-image: url($texture);
+  background-image: url($texture);
 }
 
 .header_image {
     width: 1040px;
-    height: 500px;
     box-shadow: 5px -5px 20px, -5px -5px 20px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     height: 329px;
 }
 
