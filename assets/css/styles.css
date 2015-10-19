@@ -177,8 +177,8 @@ p#second_p {
 
 #alexa_image {
     background-image: url(../images/alexa3.jpg);
-    width: 224px;
-    height: 220px;
+		width: 166px;
+    height: 195px;
     background-size: 100%;
     margin-right: 20px;
     border-radius: 9px;
