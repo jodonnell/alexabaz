@@ -1,23 +1,14 @@
-// Place all the styles related to the welcome controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-$grey: #9BA3A1;
-$title_box_height: 60px;
-
-$black: #1A1F1E;
-$background-color: #CBDAD5;
-$brief-color: #CBDAD5;
-$side_color: #2A3F1E;
-
-$texture: 'wild_oliva.png';
+.hidden {
+		display: none;
+}
 
 body {
     margin: 0px;
-    background-image: url($texture);
+    background-image: url('/assets/images/wild_oliva.png');
 }
 
 #header {
-  background-image: url($texture);
+		background-image: url('/assets/images/wild_oliva.png');
 }
 
 .header_image {
@@ -28,33 +19,30 @@ body {
     height: 329px;
 }
 
-@mixin jello-layout {
+.jello-layout {
     width: 1000px;
     margin-left: auto;
     margin-right: auto;
 }
 
-@mixin default-font {
+.default-font {
     font-family: "Palatino", "Georgia", "Baskerville", serif;
     font-size: 19px;
     line-height: 120%;
 }
 
 #content {
-    @include jello-layout;
-    @include default-font;
-    background-color: $background-color;
+    background-color: #CBDAD5;
     padding: 20px;
 
     box-shadow: 5px -5px 20px, -5px -5px 20px;
 }
 
 #title {
-    @include default-font;
     margin-left: 10px;
     font-size: 40px;
     font-weight: bold;
- }
+}
 
 #title_text {
     color: black;
@@ -101,14 +89,15 @@ footer {
 a {
     font-family: sans-serif;
     text-decoration: none;
+		cursor: pointer;
 }
 
 a:visited {
-    color: $black;
+    color: #1A1F1E;
 }
 
 a:link {
-    color: $black;
+    color: #1A1F1E;
 }
 
 .presenting_problem_group {
@@ -119,25 +108,29 @@ a:link {
 
 #presenting_problem_list {
     margin-top: 30px;
-    ul {
-	margin-top: 4px;
-    }
-
-    .header {
-	font-size: 20px;
-    }
 }
+
+#presenting_problem_list ul {
+		margin-top: 4px;
+}
+
+
+#presenting_problem_list .header {
+		font-size: 20px;
+}
+
 
 #education {
     margin-bottom: 47px;
-
-    li {
-	margin-bottom: 10px;
-	list-style-type: none;
-	position: relative;
-	left: -20px;
-    }
 }
+
+#education li {
+		margin-bottom: 10px;
+		list-style-type: none;
+		position: relative;
+		left: -20px;
+}
+
 
 #experience_text {
     padding-left: 20px;
@@ -175,7 +168,7 @@ p#second_p {
     padding: 14px;
     border: 1px black solid;
     border-radius: 6px;
-    background-color: $brief-color;
+    background-color: #CBDAD5;
 }
 
 .introduction {
@@ -183,8 +176,8 @@ p#second_p {
 }
 
 #alexa_image {
-    background-image: url('alexa_pic.jpg');
-    width: 166px;
+    background-image: url('/assets/images/alexa3.jpg');
+    width: 224px;
     height: 220px;
     background-size: 100%;
     margin-right: 20px;
@@ -208,38 +201,38 @@ p#second_p {
 
 
 .contact_button {
-	-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
-	box-shadow:inset 0px 1px 0px 0px #caefab;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
-	background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
-	background-color:#77d42a;
-	-moz-border-radius:6px;
-	-webkit-border-radius:6px;
-	border-radius:6px;
-	border:1px solid #268a16;
-	display:inline-block;
-	color:#306108;
-	font-family:arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:8px 34px;
-	text-decoration:none;
-	text-shadow:1px 1px 0px #aade7c;
+		-moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+		-webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+		box-shadow:inset 0px 1px 0px 0px #caefab;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811) );
+		background:-moz-linear-gradient( center top, #77d42a 5%, #5cb811 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+		background-color:#77d42a;
+		-moz-border-radius:6px;
+		-webkit-border-radius:6px;
+		border-radius:6px;
+		border:1px solid #268a16;
+		display:inline-block;
+		color:#306108;
+		font-family:arial;
+		font-size:15px;
+		font-weight:bold;
+		padding:8px 34px;
+		text-decoration:none;
+		text-shadow:1px 1px 0px #aade7c;
 
-	margin-top: 40px;
-	margin-left: 30px;
+		margin-top: 40px;
+		margin-left: 30px;
 }
 .contact_button:hover {
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
-	background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
-	background-color:#5cb811;
+		background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a) );
+		background:-moz-linear-gradient( center top, #5cb811 5%, #77d42a 100% );
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+		background-color:#5cb811;
 }
 .contact_button:active {
-	position:relative;
-	top:1px;
+		position:relative;
+		top:1px;
 }
 .contact_button:visited{
     color:#306108;
@@ -250,19 +243,19 @@ p#second_p {
     font-size: 40px;
     line-height: 40px;
 }
+
 .sub_sub {
     font-size: 30px;
     line-height: 30px;
     margin-left: 240px;
     float: right;
-
 }
 
 /* This imageless css button was generated by CSSButtonGenerator.com */
 
 .sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
-    color: black;
-}
+								color: black;
+						}
 
 .sf-menu a { /* visited pseudo selector so IE6 applies text colour*/
     padding: 0 1em;
@@ -283,10 +276,9 @@ p#second_p {
 }
 
 .sf-menu li {
-    background:	$background-color;
+    background:	#CBDAD5;
 }
 
-// keeps the dropdown in place
 .sf-menu li.sfHover ul {
     left: 0;
     top: 1.0em;
@@ -294,7 +286,6 @@ p#second_p {
     border-color: #676d84;
 }
 
-//drop down color
 .sf-menu li.sfHover ul li {
     background-color: #676d84;
 }
@@ -304,10 +295,8 @@ p#second_p {
 }
 
 #top_bar {
-    @include jello-layout;
-    height: $title_box_height;
-    background-color: $background-color;
-
+    height: 60px;
+    background-color: #CBDAD5;
 }
 
 #help_with {
@@ -331,7 +320,8 @@ p#second_p {
 #rates_table {
     margin-left: 10px;
     width: 650px;
-    tr {
-	height: 30px;
-    }
+}
+
+#rates_table tr {
+		height: 30px;
 }
