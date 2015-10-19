@@ -4,11 +4,11 @@
 
 body {
     margin: 0px;
-    background-image: url('/assets/images/wild_oliva.png');
+    background-image: url(../images/wild_oliva.png);
 }
 
 #header {
-		background-image: url('/assets/images/wild_oliva.png');
+		background-image: url(../images/wild_oliva.png);
 }
 
 .header_image {
@@ -176,7 +176,7 @@ p#second_p {
 }
 
 #alexa_image {
-    background-image: url('/assets/images/alexa3.jpg');
+    background-image: url(../images/alexa3.jpg);
     width: 224px;
     height: 220px;
     background-size: 100%;
