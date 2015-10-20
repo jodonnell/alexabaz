@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>Alexa Baz - LCSW</title>
-    <%= stylesheet_link_tag "superfish", "styles" %>
-    <%= javascript_include_tag  "jquery", "superfish" %>
+    <link href="/stylesheets/superfish.css" rel="stylesheet" /><link href="/stylesheets/styles.css" rel="stylesheet" />
+    <script src="/javascripts/jquery.js"></script><script src="/javascripts/superfish.js"></script>
 
     <link href="http://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet" type="text/css"></link>
     <script>
@@ -27,7 +27,7 @@
 
     </script>
     <div id="header">
-      <%= image_tag "room_with_windows_unedited.jpg", class: "header_image" %>
+      <img class="header_image" src="/images/room_with_windows_unedited.jpg" />
     </div>
     <div id="content" itemtype="http://schema.org/ProfessionalService" class="default-font jello-layout">
       <div id="inner_content">
@@ -36,12 +36,12 @@
             <ul class="sf-menu">
               <li>
                 <div class="nav_link float_left">
-                  <%= link_to 'Home', '/' %>
+                  <a href="/">Home</a>
                 </div>
               </li>
               <li>
                 <div class="nav_link float_left">
-                  <%= link_to 'Background', '/background.html' %>
+                  <a href="/background.html">Background</a>
                 </div>
               </li>
               <li>
@@ -50,13 +50,13 @@
                   <ul>
                     <ul>
                       <li>
-                        <%= link_to 'Children', '/children.html' %>
+                        <a href="/children.html">Children</a>
                       </li>
                       <li>
-                        <%= link_to 'Adolescents', '/adolescents.html' %>
+                        <a href="/adolescents.html">Adolescents</a>
                       </li>
                       <li>
-                        <%= link_to 'Adults', '/adults.html' %>
+                        <a href="/adults.html">Adults</a>
                       </li>
                     </ul>
                   </ul>
@@ -65,7 +65,7 @@
               <li>
                 <div class="nav_link float_left" style="position: relative; top: -20px;">
                   &nbsp;
-                  <%= link_to 'Contact', '/contact.html' %>
+                  <a href="/contact.html">Contact</a>
                 </div>
               </li>
             </ul>
@@ -76,7 +76,19 @@
             </div>
           </div>
         </div>
-        <%= yield %>
+        <div id="adolescents">
+  <h3>
+    Adolescents
+  </h3>
+  Adolescents respond well to a flexible approach incorporating play and regular “talk therapy”.  Play can be a way to communicate anxiety and frustration as well as way to talk about their lives in a setting that feels less stilted. With the increased stress of academic standards, climbing social pressures and feelings of awkwardness that accompany puberty it is easy for adolescents to feel alone with their feelings. Not only will I provide your adolescent with a place to explore conflicted feelings and develop coping skills but I will help you be sensitive to their changing needs.
+  <p>
+    <h3>
+      Teenagers
+    </h3>
+    It has never been easy to be a teenager – in limbo somewhere between depending on your parents and desperately wanting to be free of them. Many teens I work with feel  are struggling to form a cohesive sense of self because of the conflicting values they are encountering within their families or origin, peer groups and neighborhoods. It can be difficult for a teen to feel they can confide in their parents for a variety of reasons and sometimes a non-biased neutral adult feels safer. Ultimately, the goal is that your teen is able to  navigate their worlds feeling more empowered to ask for help when needed and take responsibility for their actions.
+  </p>
+</div>
+
         <footer>
           <hr>
             <div class="float_right">

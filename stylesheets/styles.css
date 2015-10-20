@@ -1,0 +1,314 @@
+/* line 1, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.hidden {
+  display: none; }
+
+/* line 5, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+body {
+  margin: 0px;
+  background-image: url("/images/wild_oliva.png"); }
+
+/* line 10, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#header {
+  background-image: url("/images/wild_oliva.png"); }
+
+/* line 14, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.header_image {
+  width: 1040px;
+  box-shadow: 5px -5px 20px, -5px -5px 20px;
+  display: block;
+  margin: 0 auto;
+  height: 329px; }
+
+/* line 22, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.jello-layout {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* line 28, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.default-font {
+  font-family: "Palatino", "Georgia", "Baskerville", serif;
+  font-size: 19px;
+  line-height: 120%; }
+
+/* line 34, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#content {
+  background-color: #CBDAD5;
+  padding: 20px;
+  box-shadow: 5px -5px 20px, -5px -5px 20px; }
+
+/* line 41, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#title {
+  margin-left: 10px;
+  font-size: 40px;
+  font-weight: bold; }
+
+/* line 47, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#title_text {
+  color: black; }
+
+/* line 52, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.header {
+  font-size: 28px;
+  font-weight: bold; }
+
+/* line 57, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.nav_link {
+  font-size: 23px;
+  margin-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/* line 65, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+hr {
+  background-color: #000;
+  color: #000;
+  height: 5px;
+  border: none; }
+
+/* line 72, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+footer {
+  margin-top: 120px;
+  font-size: 28px;
+  line-height: 120%; }
+
+/* line 78, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#left_bar {
+  clear: left;
+  float: left;
+  height: 600px;
+  width: 330px; }
+
+/* line 85, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#inner_content {
+  padding: 10px; }
+
+/* line 89, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+a {
+  font-family: sans-serif;
+  text-decoration: none;
+  cursor: pointer; }
+  /* line 94, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+  a:visited {
+    color: #1A1F1E; }
+  /* line 98, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+  a:link {
+    color: #1A1F1E; }
+
+/* line 103, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.presenting_problem_group {
+  font-size: 16px;
+  margin-top: 30px; }
+
+/* line 109, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#presenting_problem_list {
+  margin-top: 30px; }
+  /* line 111, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+  #presenting_problem_list ul {
+    margin-top: 4px; }
+  /* line 115, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+  #presenting_problem_list .header {
+    font-size: 20px; }
+
+/* line 120, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#education {
+  margin-bottom: 47px; }
+
+/* line 124, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#education li {
+  margin-bottom: 10px;
+  list-style-type: none;
+  position: relative;
+  left: -20px; }
+
+/* line 132, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#experience_text {
+  padding-left: 20px; }
+
+/* line 136, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+p#second_p {
+  margin-top: 30px;
+  margin-left: 6px; }
+
+/* line 141, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#address {
+  margin-left: 63px; }
+
+/* line 145, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.padding {
+  padding-left: 7px; }
+
+/* line 153, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#contact_info {
+  margin-top: 20px;
+  padding-top: 30px;
+  margin-bottom: 50px; }
+
+/* line 159, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#phone, #email {
+  margin-bottom: 30px; }
+
+/* line 163, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#brief {
+  margin-top: 20px;
+  padding: 14px;
+  border: 1px black solid;
+  border-radius: 6px;
+  background-color: #CBDAD5; }
+
+/* line 171, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.introduction {
+  margin-left: 400px; }
+
+/* line 175, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#alexa_image {
+  background-image: url("/images/alexa3.jpg");
+  width: 166px;
+  height: 195px;
+  background-size: 100%;
+  margin-right: 20px;
+  border-radius: 9px;
+  float: left;
+  margin-left: 30px; }
+
+/* line 186, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.float_right {
+  float: right; }
+
+/* line 190, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.center {
+  margin-top: 60px;
+  margin-left: 250px; }
+
+/* line 195, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.float_left {
+  float: left; }
+
+/* line 200, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.contact_button {
+  -moz-box-shadow: inset 0px 1px 0px 0px #caefab;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #caefab;
+  box-shadow: inset 0px 1px 0px 0px #caefab;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #77d42a), color-stop(1, #5cb811));
+  background: -moz-linear-gradient(center top, #77d42a 5%, #5cb811 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#77d42a', endColorstr='#5cb811');
+  background-color: #77d42a;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid #268a16;
+  display: inline-block;
+  color: #306108;
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px 34px;
+  text-decoration: none;
+  text-shadow: 1px 1px 0px #aade7c;
+  margin-top: 40px;
+  margin-left: 30px; }
+
+/* line 224, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.contact_button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #5cb811), color-stop(1, #77d42a));
+  background: -moz-linear-gradient(center top, #5cb811 5%, #77d42a 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5cb811', endColorstr='#77d42a');
+  background-color: #5cb811; }
+
+/* line 230, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.contact_button:active {
+  position: relative;
+  top: 1px; }
+
+/* line 234, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.contact_button:visited {
+  color: #306108; }
+
+/* line 238, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#sub_header {
+  z-index: 100;
+  font-size: 40px;
+  line-height: 40px; }
+
+/* line 244, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sub_sub {
+  font-size: 30px;
+  line-height: 30px;
+  margin-left: 240px;
+  float: right; }
+
+/* This imageless css button was generated by CSSButtonGenerator.com */
+/* line 253, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu a, .sf-menu a:visited {
+  /* visited pseudo selector so IE6 applies text colour*/
+  color: black; }
+
+/* line 257, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu a {
+  /* visited pseudo selector so IE6 applies text colour*/
+  padding: 0 1em; }
+
+/* line 261, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu ul li a {
+  padding: .75em 1em;
+  border-left: 1px solid black;
+  border-right: 1px solid black; }
+
+/* line 267, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu ul li:first-child a {
+  border-top: 1px solid black; }
+
+/* line 271, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu ul li:last-child a {
+  border-bottom: 1px solid black; }
+
+/* line 275, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu li {
+  background: #CBDAD5; }
+
+/* line 279, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu li.sfHover ul {
+  left: 0;
+  top: 1.0em;
+  z-index: 99;
+  border-color: #676d84; }
+
+/* line 286, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu li.sfHover ul li {
+  background-color: #676d84; }
+
+/* line 290, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+.sf-menu li.sfHover ul li a {
+  border-width: 0; }
+
+/* line 294, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#top_bar {
+  height: 60px;
+  background-color: #CBDAD5; }
+
+/* line 299, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#help_with {
+  margin-left: 30px;
+  margin-top: 100px; }
+
+/* line 304, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#stripe {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-right: 100px;
+  position: relative;
+  left: -30px;
+  width: 940px;
+  padding-bottom: 35px; }
+
+/* line 313, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#background {
+  margin-top: 10px; }
+
+/* line 317, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#rates_table {
+  margin-left: 10px;
+  width: 650px; }
+
+/* line 322, /Users/jacob/programming/alexabaz/source/stylesheets/styles.css.scss */
+#rates_table tr {
+  height: 30px; }
