@@ -1,0 +1,3 @@
+middleman server
+middleman build
+middleman deploy
